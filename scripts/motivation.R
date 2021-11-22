@@ -61,7 +61,7 @@ nrow(lhs.in) # 31
 
 
 # scmc
-setwd("~/gatech/research/sampling/CoMinED/scripts/")
+setwd("/home/aholaj/Nextcloud/000_WORK/000_Codex/CoMinED/scripts/")
 source("lib.R")
 set.seed(20210320)
 tau <- c(0,exp(c(1:7)),1e6)
@@ -169,7 +169,7 @@ x2[3,] <- x2.seq
 x1[3,] <- sqrt(0.65^2 - x2.seq^2)
 contour <- list(x1 = x1, x2 = x2)
 
-setwd("~/gatech/research/sampling/CoMinED/scripts/")
+setwd("/home/aholaj/Nextcloud/000_WORK/000_Codex/CoMinED/scripts/")
 source("lib.R")
 set.seed(20210320)
 tau <- c(0,exp(c(1:7)),1e6)
